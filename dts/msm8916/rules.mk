@@ -23,4 +23,4 @@ DTBS += \
     $(LOCAL_DIR)/l23-vd.dtb \
     $(LOCAL_DIR)/l24-vc.dtb \
     $(LOCAL_DIR)/l24-vb.dtb \
-    $(LOCAL_DIR)/l33-vd.dtb \
+    $(LOCAL_DIR)/l33-vd.dtb
