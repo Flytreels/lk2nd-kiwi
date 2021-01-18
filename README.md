@@ -1,4 +1,4 @@
-;# lk2nd
+# lk2nd
 lk2nd is a bootloader for Qualcomm MSM devices (at the moment only MSM8916 and MSM8939),
 based on the [CodeAurora Little Kernel fork](https://source.codeaurora.org/quic/la/kernel/lk/).
 It provides an Android Fastboot interface on devices where the stock bootloader
