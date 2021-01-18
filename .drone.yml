@@ -1,0 +1,45 @@
+---
+kind: pipeline
+name: msm8916
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: build
+    image: debian:buster
+    commands: [./.drone.sh msm8916]
+
+trigger:
+  event: [push, pull_request, tag]
+---
+kind: pipeline
+name: msm8974
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: build
+    image: debian:buster
+    commands: [./.drone.sh msm8974]
+
+trigger:
+  event: [push, pull_request, tag]
+---
+kind: pipeline
+name: msm8226
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: build
+    image: debian:buster
+    commands: [./.drone.sh msm8226]
+
+trigger:
+  event: [push, pull_request, tag]
